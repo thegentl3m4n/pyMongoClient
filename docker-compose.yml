@@ -19,7 +19,7 @@ services:
   mongo-express:
     image: mongo-express:latest
     restart: always
-    mongo-express starts
+
     ports:
       - 8080:8081
     environment:
